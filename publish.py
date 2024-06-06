@@ -103,6 +103,6 @@ for row in range(1,2):
     dlg["打开(&O)"].click()
     time.sleep(1)
     # 点击发布
-    web.find_element(By.XPATH,'//*[@id="app"]/section/section/main/div[2]/div/div/form/div[19]/div/button/span').click()
+    # web.find_element(By.XPATH,'//*[@id="app"]/section/section/main/div[2]/div/div/form/div[19]/div/button/span').click()
     print(str(PID) + channel + '发布成功')
     time.sleep(5)
